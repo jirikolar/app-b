@@ -9,7 +9,7 @@
   <body>
     <div class="box">
       <h1>B</h1>
-      <?php if(isset($_ENV['HOSTNAME'])) { ?><h2><?php echo $_ENV['HOSTNAME'] ?></h2><?php } ?>
+      <h2><?php echo getenv('HOSTNAME') ?></h2>
       <hr>
       <h1 id="countdown">5</h1>
     </div>
