@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="box">
-      <h1>Baby</h1>
+      <h1>Hello Baby</h1>
       <h2><?php echo getenv('HOSTNAME') ?></h2>
       <hr>
       <h1 id="countdown">5</h1>
